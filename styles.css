@@ -1,6 +1,6 @@
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 body {
@@ -41,7 +41,7 @@ button {
 }
 
 .sign-up {
-    height: 250px;
+    height: 195px;
 }
 
 .header,
@@ -123,12 +123,34 @@ li,
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 100px;
+    width: 150px;
     flex-wrap: wrap;
+    align-items: center ;
 }
 
 .top-other {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937; 
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    font-size: 36px;
+}
+
+.quoter {
+    display: flex;
+    width: 750px;
+    justify-content: flex-end;
+    font-size: 20px;
 }
