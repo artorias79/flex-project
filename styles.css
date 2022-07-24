@@ -1,10 +1,107 @@
 img {
     width: 100px;
-    height: 100px;
+    height: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 25px;
+    height: 25px;
+    width: 80px;
+    font-weight: 700;
+    border-color: #3882F6;
 }
 
 .main,
 .other,
 .quote {
-    height: 350px;
+    height: 300px;
+}
+
+.sign-up {
+    height: 250px;
+}
+
+.header,
+.footer {
+    height: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-cont {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header,
+.main {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+li,
+.header,
+.main-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    flex-wrap: wrap;
+    gap: 8px
+}
+
+.stannis {
+    width: 600px;
+    height: 193px;
 }
