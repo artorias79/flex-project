@@ -1,6 +1,6 @@
 img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 body {
@@ -22,6 +22,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 button {
@@ -37,16 +38,16 @@ button {
 .main,
 .other,
 .quote {
-    height: 300px;
+    height: 500px;
 }
 
 .sign-up {
-    height: 195px;
+    height: 350px;
 }
 
 .header,
 .footer {
-    height: 41px;
+    height: 80px;
 }
 
 .header {
@@ -98,13 +99,14 @@ li,
     flex-direction: column;
     align-items: flex-start;
     width: 600px;
+    height: 300px;
     flex-wrap: wrap;
     gap: 8px
 }
 
 .stannis {
     width: 600px;
-    height: 193px;
+    height: 300px;
 }
 
 .other {
@@ -117,7 +119,7 @@ li,
 
 .mid-other {
     display: flex;
-    gap: 48px;
+    gap: 120px;
 }
 
 .anime {
